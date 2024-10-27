@@ -16,7 +16,7 @@ import static org.mockito.Mockito.*;
 public class DragonControllerTest {
     @Test
     public void testGetDragonById() {
-// Создайте фиктивного кота
+// Создайте фиктивного дракона
         Dragon dragon = new Dragon();
         dragon.setId(1L);
         dragon.setName("Whiskers");
@@ -33,7 +33,7 @@ public class DragonControllerTest {
 
     @Test
     public void testGetAllDragons() {
-// Создайте список фиктивных котов
+// Создайте список фиктивных драконов
         Dragon dragon1 = new Dragon();
         dragon1.setId(1L);
         dragon1.setName("Whiskers");
@@ -54,7 +54,7 @@ public class DragonControllerTest {
 
     @Test
     public void testCreateDragon() {
-// Создайте фиктивного кота
+// Создайте фиктивного дракона
         Dragon dragon = new Dragon();
         dragon.setId(1L);
         dragon.setName("Whiskers");
@@ -70,11 +70,11 @@ public class DragonControllerTest {
 
     @Test
     public void testUpdateDragon() {
-// Создайте фиктивного кота
+// Создайте фиктивного дракона
         Dragon existingDragon = new Dragon();
         existingDragon.setId(1L);
         existingDragon.setName("Whiskers");
-// Создайте фиктивного обновленного кота
+// Создайте фиктивного обновленного дракона
         Dragon updatedDragon = new Dragon();
         updatedDragon.setId(1L);
         updatedDragon.setName("Fluffy");
@@ -92,7 +92,7 @@ public class DragonControllerTest {
 
     @Test
     public void testDeleteDragon() {
-// Создайте фиктивного кота
+// Создайте фиктивного дракона
         Dragon dragon = new Dragon();
         dragon.setId(1L);
         dragon.setName("Whiskers");
